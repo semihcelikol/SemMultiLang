@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemMultiLang.LanguageLib", "SemMultiLang.LanguageLib\SemMultiLang.LanguageLib.csproj", "{90020D0F-20AD-4BA7-B548-11B77C2CEE38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemMultiLang.LanguageWEB", "SemMultiLang.LanguageWEB\SemMultiLang.LanguageWEB.csproj", "{4EDECD80-D8B1-48F4-BC99-7A844F669141}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90020D0F-20AD-4BA7-B548-11B77C2CEE38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90020D0F-20AD-4BA7-B548-11B77C2CEE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90020D0F-20AD-4BA7-B548-11B77C2CEE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90020D0F-20AD-4BA7-B548-11B77C2CEE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EDECD80-D8B1-48F4-BC99-7A844F669141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EDECD80-D8B1-48F4-BC99-7A844F669141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EDECD80-D8B1-48F4-BC99-7A844F669141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EDECD80-D8B1-48F4-BC99-7A844F669141}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {037ADA0B-3E30-4BF7-B411-36B423A25824}
+	EndGlobalSection
+EndGlobal

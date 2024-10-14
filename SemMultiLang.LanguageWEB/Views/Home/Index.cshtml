@@ -1,0 +1,18 @@
+﻿@using Microsoft.Extensions.Localization
+@using SemMultiLang.LanguageLib.Languages
+
+@inject IStringLocalizer<Lang> _strLocalization;
+
+
+@{
+    ViewData["Title"] = _strLocalization["Home"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.WelcomeLabel</h1>
+
+
+    <p>@_strLocalization["OverviewDesc"]</p>
+
+    <p>LanguageHelper.cs yönteminden çekilen label: @ViewBag.HomeLabel</p>
+</div>
