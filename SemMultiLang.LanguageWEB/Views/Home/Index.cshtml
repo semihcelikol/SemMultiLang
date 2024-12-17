@@ -1,4 +1,4 @@
-﻿@using Microsoft.Extensions.Localization
+@using Microsoft.Extensions.Localization
 @using SemMultiLang.LanguageLib.Languages
 
 @inject IStringLocalizer<Lang> _strLocalization;
@@ -12,7 +12,7 @@
     <h1 class="display-4">@ViewBag.WelcomeLabel</h1>
 
 
-    <p>@_strLocalization["OverviewDesc"]</p>
+    <p>@_strLocalization["Overview"]</p>
 
-    <p>LanguageHelper.cs yönteminden çekilen label: @ViewBag.HomeLabel</p>
+    <p>LanguageHelper.cs : @ViewBag.HomeLabel</p>
 </div>
